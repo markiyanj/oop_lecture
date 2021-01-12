@@ -72,7 +72,7 @@ if __name__ == '__main__':
         buck.work(1)
         # buck.get_discount(houses[0], discount)
 
-        chance_to_still_money = randint(1, 11)
+        chance_to_still_money = randint(1, 10)
         if chance_to_still_money == 1:
             realtor.steal_money()
             print('The realtor stole all the money')
